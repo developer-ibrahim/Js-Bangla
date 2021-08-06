@@ -622,10 +622,25 @@ setTimeout(function(){
   6. we can return a function from another function  
 */
 
-let arr = [10, 20, 30, 40, 50];
-let arr2 = [];
-arr.forEach(function (x) {
-  x = x * x;
-  arr2.push(x);
-  console.log(x);
-});
+let javaScript = {
+  name: "javascript",
+  libraries: ["React", "Agular", "Vue"],
+
+  printScr: function () {
+    this.libraries.forEach((a) => console.log(this.name + " Loves " + a));
+  },
+};
+javaScript.printScr();
+
+let obj = {
+  fn: "Muhammad Ibrahim",
+  fl: ["SOBUJ", "AHMED", "MAHMUDUL", "HASAN"],
+
+  func: function () {
+    this.fl.forEach((x) => {
+      console.log(this.fn + " " + x);
+    });
+  },
+};
+
+obj.func();
