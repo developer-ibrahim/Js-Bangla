@@ -712,3 +712,5 @@ function hello(first, second) {
 // hello('good afternoon', 'sajeeb khan')
 
 */ 
+
+console.log("hello Bangladesh")
