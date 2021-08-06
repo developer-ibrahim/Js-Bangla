@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  background: #0c2461;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 770px;
+  font-family: Fira Code;
+  color: #fff;
+}
+
+.inner-section {
+  border: 1px solid #fff;
+  padding: 15px;
+  width: 400px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 14px;
+  padding: 10px 8px;
+  border: black;
+  border-radius: 5px;
+  outline: none;
+}
+
+.Button {
+  background: lightseagreen;
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+  padding: 8px 8px;
+  border: none;
+}
+
+input::placeholder {
+  margin-left: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.text {
+  color: red;
+}
