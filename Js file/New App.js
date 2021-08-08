@@ -644,3 +644,4 @@ let obj = {
 };
 
 obj.func();
+ 
