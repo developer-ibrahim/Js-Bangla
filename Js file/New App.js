@@ -622,26 +622,22 @@ setTimeout(function(){
   6. we can return a function from another function  
 */
 
-let javaScript = {
-  name: "javascript",
-  libraries: ["React", "Agular", "Vue"],
+// let javaScript = {
+//   name: "javascript",
+//   libraries: ["React", "Agular", "Vue"],
 
-  printScr: function () {
-    this.libraries.forEach((a) => console.log(this.name + " Loves " + a));
-  },
+//   printScr: function () {
+//     this.libraries.forEach((a) => console.log(this.name + " Loves " + a));
+//   },
+// };
+// javaScript.printScr();
+
+var num1 = 1;
+var num2 = 2;
+
+var sum = function () {
+  return num1 + num2;
 };
-javaScript.printScr();
-
-let obj = {
-  fn: "Muhammad Ibrahim",
-  fl: ["SOBUJ", "AHMED", "MAHMUDUL", "HASAN"],
-
-  func: function () {
-    this.fl.forEach((x) => {
-      console.log(this.fn + " " + x);
-    });
-  },
-};
-
-obj.func();
- 
+var result = sum();
+console.log(result);
+console.dir(sum);
