@@ -631,13 +631,3 @@ setTimeout(function(){
 //   },
 // };
 // javaScript.printScr();
-
-var num1 = 1;
-var num2 = 2;
-
-var sum = function () {
-  return num1 + num2;
-};
-var result = sum();
-console.log(result);
-console.dir(sum);

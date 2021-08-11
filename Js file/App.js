@@ -1,10 +1,9 @@
 // sum = 0;
 // for(var i = 1; i<=10; i++){
-    
+
 //     console.log(sum + " + " + i + " = " + (sum+i));
 //     sum = sum + i;
 // }
-
 
 // var sum = true
 // while(sum){
@@ -15,10 +14,8 @@
 //   }else{
 //     console.log('You Have Got ' + x)
 //   }
-  
+
 // }
-
-
 
 /* Switch And Case Defult 
 
@@ -62,12 +59,11 @@ switch(count){
    default:
      console.log(count + ' Consonant')
 }
-*/ 
+*/
 
 // var myF = '';
 // var ton = myF || 'Hello World'
 // console.log(ton)
-
 
 // var fto = 10;
 // var tot = (fto <= 10)? 'I Agree' : 'I am not Agree'
@@ -75,12 +71,11 @@ switch(count){
 
 // var i = 1;
 // var sum = 0;
-// do{ 
+// do{
 //   console.log(sum+i)
 //   sum = sum+i
 //  i++
 // }while(i <= 10)
-
 
 // var marks = parseInt(prompt("Enter Your Marks:"))
 // if(marks <0 || marks >100){
@@ -110,16 +105,12 @@ switch(count){
 //   console.log("Please Enter Your Marks")
 // }
 
-
-
 // let User = 10
 // for(let x = 1; x <= User; x++){
 
-
 //   let result = ''
 //   for(let y = 1; y <= x; y++)
-  
- 
+
 //   result = result + y + ' '
 //   console.log(result)
 // }
@@ -143,9 +134,8 @@ switch(count){
 //   var sum = '';
 //   sum = sum + b + ' '
 //   console.log(sum)
-  
-// }
 
+// }
 
 // while(true){
 //   let prom = Math.floor(Math.random() *6)
@@ -156,7 +146,6 @@ switch(count){
 //     console.log(prom)
 //   }
 // }
-
 
 // let x = 1;
 // do{
@@ -169,17 +158,15 @@ switch(count){
 //     x ++
 // }while(x <= 10)
 
-
 //  let sum = 0;
 // for(let i = 1; i <= 100; i=i+1){
 //   if(i%3 == 0 && i%5 == 0){
 //     console.log(sum + ' + ' + i + ' = ' + (sum+i))
 //     sum = sum + i
 //   }else{
-    
+
 //   }
 // }
-
 
 /*
 for(; ;){
@@ -201,7 +188,7 @@ while(true){
     console.log(b)
   }
 }
-*/ 
+*/
 
 /*
 1. What is String 
@@ -209,9 +196,7 @@ while(true){
 3. String Comparison
 4. Escape Notations Or Characters in String
 5.  
-*/ 
-
-
+*/
 
 // let length = 0;
 // while(true){
@@ -220,10 +205,9 @@ while(true){
 //   }else{
 //     length++
 //   }
-// }   
+// }
 // console.log(length)
 
- 
 // while(true){
 //   let task = Math.floor(Math.random() *6)
 //   if(task == 5){
@@ -233,9 +217,6 @@ while(true){
 //     console.log(task)
 //   }
 // }
-
-
-
 
 /*
 Arithmetic Operatro
@@ -258,13 +239,11 @@ String Type
 // let result = str.substr('8', '2')
 // console.log(result)
 
-
 // let tir = '      fasdkfja;lskd        '
 // console.log(tir.trim())
 
 // let wifi = str.concat(tir)
 // console.log(wifi)
-
 
 // while(true){
 //   let gen = Math.floor(Math.random() *6 )
@@ -275,8 +254,6 @@ String Type
 //     console.log(gen)
 //   }
 // }
-
-
 
 // let arr = ['a', 'b', 'c', 'd', 'e']
 // for(var i=0; i<arr.length; i++){
@@ -294,27 +271,26 @@ String Type
 //     arr3[4] = 'Ibrahim'
 //     arr3[0] = 'Naeem Billah'
 //     arr3[10] = 'Rakib Hossin'
-    
+
 //     for(let y=0; y<arr3.length; y++){
 //       console.log(arr3[y])
 //     }
 
-   
-  //  let str = 'This is the real man here'
-  //  let result = str.length
-  //  console.log(result)
+//  let str = 'This is the real man here'
+//  let result = str.length
+//  console.log(result)
 
-  //  let str2 = 'This is the real man here'
-  //  let result2 = str.toLowerCase()
-  //  console.log(result2)
+//  let str2 = 'This is the real man here'
+//  let result2 = str.toLowerCase()
+//  console.log(result2)
 
-  //  let str3 = 12345678910
-  //  let result3 = str.toString()
-  //  console.log(result3)
+//  let str3 = 12345678910
+//  let result3 = str.toString()
+//  console.log(result3)
 
-  //  let str4 = 12345678910
-  //  let result4 = String(str4)
-  //  console.log(result4)
+//  let str4 = 12345678910
+//  let result4 = String(str4)
+//  console.log(result4)
 
 // let sum = 0
 // let arr = [4, 6, 20, 42, 30, 25, 16, 15]
@@ -322,7 +298,6 @@ String Type
 //   arr[i] = arr[i] +2
 //   console.log(arr[i])
 // }
-
 
 // let sum = 0
 // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -333,7 +308,6 @@ String Type
 // }
 
 // .push .inshift .splice .shift .pop
-
 
 // let arry = [5, 10, 15, 20, 25, 30, 35, 40]
 
@@ -354,14 +328,11 @@ String Type
 //   [100, 200, 300, 4, 5, 6]
 // ]
 
-
 // for(let i = 0; i < myArr.length; i++){
 //   for(let j = 0; j < myArr.length; j++){
 //       console.log(myArr[i][j])
 //   }
 // }
-
-
 
 // let ptArry = [
 //   [10, 20, 15, 56, 24],
@@ -387,9 +358,6 @@ String Type
 //   console.log(result)
 // }
 
-
-
-
 // let length = 0
 // let str = 'this is the real man'
 // while(true){
@@ -400,7 +368,6 @@ String Type
 //     length++
 //   }
 // }
-
 
 /*
 document.querySelector('.Button').addEventListener('click', function(){
@@ -451,7 +418,7 @@ document.querySelector('.Button').addEventListener('click', function(){
   // }
 
 
-})*/
+})
 /* 
 let arr = new Array(1,2,3,4,5,6,7,8,9,10)
  
@@ -465,8 +432,6 @@ for(let a = 0; a < arr.length; a++){
 if(!isFound){
   console.log('Data Not Founded')
 }*/
-
-
 
 /*
 let myArr = [
@@ -484,12 +449,9 @@ for(let a = 0; a < myArr.length; a++){
   console.log(result)
 }*/
 
-
-
-
 // let obj = {
 //   x: 1,
-//   y: 2, 
+//   y: 2,
 //   z: 3,
 //   xx: 11,
 //   yy: 22,
@@ -513,10 +475,9 @@ for(let a = 0; a < myArr.length; a++){
 // let arr =new Array (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 //     arr.shift()
 // for(let i in obj){
-  
+
 //   console.log(i + ': ' + obj[i] + ' ')
 // }
-
 
 /* 
 
@@ -590,10 +551,6 @@ f[0] = 500
 f[1] = 1000
 console.log(f)      */
 
-
-
-
-
 // let arr1 =[10,20,30]
 // let arr2 =[40,50,60]
 // let arr3 =[70,80,90]
@@ -609,8 +566,6 @@ console.log(f)      */
 // functionName(arr2)
 // functionName(arr3)
 
-
-
 // let arr = [
 //   [10, 20, 30],
 //   [30, 50, 70],
@@ -622,7 +577,7 @@ console.log(f)      */
 //    res += arr[i][j] + ' '
 //   }
 //   console.log(res)
-// }  
+// }
 
 /*
 
@@ -642,10 +597,7 @@ console.log(myFac(arr))
 console.log(myFac(arr1))
 console.log(myFac(arr2))
 
-*/ 
-
-
-
+*/
 
 // let arr = [
 //   [1, 2, 3],
@@ -656,7 +608,7 @@ console.log(myFac(arr2))
 //   let result = ''
 //   for(let j = 0; j < arr[i].length; j++){
 //     result += arr[i][j] + ' '
-    
+
 //   }
 //   console.log(result)
 // }
@@ -665,7 +617,7 @@ console.log(myFac(arr2))
 //   x: 1,
 //   y: 2,
 //   z: 3
- 
+
 // }
 
 // let newOdd = 'x'
@@ -675,14 +627,9 @@ console.log(myFac(arr2))
 // console.log(obb)
 // console.log(a)
 
-
 // console.log(Object.keys(obb))
 // console.log(Object.values(obb))
 // console.log(Object.entries(obb))
-
-
-
-
 
 /*
 
@@ -711,4 +658,4 @@ function hello(first, second) {
 }
 // hello('good afternoon', 'sajeeb khan')
 
-*/ 
+*/
