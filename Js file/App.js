@@ -659,3 +659,64 @@ function hello(first, second) {
 // hello('good afternoon', 'sajeeb khan')
 
 */
+
+// function p1(name, age, avg) {
+//   let myObj = {};
+
+//   myObj.name = name;
+//   myObj.age = age;
+//   myObj.avg = avg;
+
+//   myObj.eat = function () {
+//     console.log("he is eating");
+//   };
+
+//   myObj.sleep = function () {
+//     console.log("he is sleeping");
+//   };
+
+//   return myObj;
+// }
+// let x = p1("Ibrahim", 25, 33.35);
+
+// function java() {
+//   let programm = {
+//     name: "sakib",
+//     age: 20,
+//     label: 30,
+
+//     myfunc: () => {
+//       console.log("Hello Java Programming");
+//     },
+//   };
+//   return programm;
+// }
+// console.log(java());
+// console.log(java());
+
+// Prototype details
+/**/
+
+let habit = {
+  eat() {
+    console.log("player's eating ");
+  },
+  sleep() {
+    console.log("player's sleeping ");
+  },
+  playing() {
+    console.log("player's playing ");
+  },
+};
+
+function p1(name, age) {
+  let person = Object.create(habit);
+
+  person.name = name;
+  person.age = age;
+
+  return person;
+}
+let a = p1("sakib", 35);
+let b = p1("tamim", 36);
+a.playing();

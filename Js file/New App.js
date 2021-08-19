@@ -631,3 +631,40 @@ setTimeout(function(){
 //   },
 // };
 // javaScript.printScr();
+
+// Array of Object
+/*
+let players = [
+  {
+    name: "skaib",
+    avg: 35.35,
+    age: 35,
+    playerType: "All Rounder",
+  },
+  {
+    name: "Tamim",
+    avg: 35.88,
+    age: 36,
+    playerType: "Batsman",
+  },
+  {
+    name: "Mahmudullah Riyad",
+    avg: 35.44,
+    age: 34.99,
+    playerType: "All Rounder",
+  },
+  {
+    name: "Musfiqur Rahim",
+    avg: 35.0,
+    age: 33,
+    playerType: "Keeper Batsman ",
+  },
+];
+
+for (let i = 0; i < players.length; i++) {
+  if (players[i].avg >= 35) {
+    // console.log(players[i].name);
+    console.log(players[i]);
+  }
+}
+*/
